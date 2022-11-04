@@ -3,7 +3,7 @@ import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <h2>Websickect - client </h2>
+    <h2>WebSocket - client </h2>
 
     <input id="jwt-token" placeholder="Json Web Token"/>
     <button id = "btn-connect">Connect</button>
